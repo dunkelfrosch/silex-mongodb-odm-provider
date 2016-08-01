@@ -8,6 +8,6 @@ php:
 
 before_script:
   - echo 'extension=mongo.so' >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
-  - composer --prefer-source --dev install
+  - composer --ignore-platform-reqs --prefer-source --dev install
 
 script: phpunit --coverage-text --verbose
