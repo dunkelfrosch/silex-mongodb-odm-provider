@@ -10,6 +10,7 @@
 
 Provides Doctrine MongoDB ODM Document Managers as services to Pimple applications.
 
+
 ## Features
 
  - Default Document Manager can be bound to any database connection
@@ -378,7 +379,6 @@ MIT, see LICENSE.
 
 
 ## Not Invented Here
-
 
 This project is based heavily on the work done by [@dflydev][1]
 on the [dflydev/dflydev-doctrine-orm-service-provider][2] project.
